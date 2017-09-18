@@ -37,3 +37,20 @@ body {
 .navbar-inverse {
     background-color: #512DA8;
 }
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .checkbox-inline{
+    padding:0;
+    margin:0 15px 0 0;
+    line-height: 20px;
+    min-height: 20px;
+}
+input[type='checkbox'], input[type='radio'] {
+    margin: -2px 5px 0 0;
+    ine-height: 20px;
+}
