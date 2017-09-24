@@ -44,13 +44,21 @@ body {
     margin-right: auto;
 }
 
-  .checkbox-inline{
+.checkbox-inline{
     padding:0;
     margin:0 15px 0 0;
     line-height: 20px;
     min-height: 20px;
 }
-input[type='checkbox'], input[type='radio'] {
+
+input[type='radio'] {
     margin: -2px 5px 0 0;
-    ine-height: 20px;
+    line-height: 20px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
