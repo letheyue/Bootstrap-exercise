@@ -11,4 +11,12 @@ $(document).ready(function() {
             $("#carousel-button").children("span").addClass("fa-pause");
         }
     });
+
+    $("#myModal").click(function(){
+        $("#jumpTo").modal('show');
+    });
+
+    $("#login").click(function(){
+        $("#loginModal").modal('show');
+    });
 });
